@@ -1,0 +1,23 @@
+{
+	"files": [],
+	"compilerOptions": {
+		"composite": true,
+		"baseUrl": "./",
+		"paths": {
+			"@/*": [
+				"./src/*",
+				"./dist/*"
+			]
+		},
+		"outDir": "./dist",
+		"noEmit": true
+	},
+	"references": [
+		{
+			"path": "./tsconfig.app.json"
+		},
+		{
+			"path": "./tsconfig.node.json"
+		}
+	]
+}
