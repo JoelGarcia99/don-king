@@ -6,7 +6,7 @@ import App from "@/App.vue";
 import { router } from "@/routes/router";
 
 import "@fortawesome/fontawesome-free/css/all.css";
-import "./main.css"; // This file should contain Tailwind directives and custom styles
+import "./styles.css"; // This file should contain Tailwind directives and custom styles
 
 const app = createApp(App);
 

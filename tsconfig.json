@@ -1,8 +1,10 @@
 {
 	"compilerOptions": {
+		"skipLibCheck": true, // ← ignore type errors in node_modules
 		"target": "esnext",
 		"module": "esnext",
 		"moduleResolution": "bundler",
+		"noEmit": true,
 		"strict": true,
 		"jsx": "preserve",
 		"sourceMap": true,
@@ -18,11 +20,14 @@
 				"src/*"
 			]
 		},
-		"types": ["vite/client"]
+		"types": [
+			"vite/client"
+		]
 	},
 	"include": [
 		"src/**/*.ts",
 		"src/**/*.d.ts",
+		"*.d.ts",
 		"src/**/*.tsx",
 		"src/**/*.vue"
 	]

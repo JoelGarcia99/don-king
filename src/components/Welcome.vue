@@ -95,10 +95,7 @@
   </div>
 </template>
 
-<script setup type="ts">
-import Button from "primevue/button";
-import LogoV0Svg from "@/assets/logov0.vue";
-</script>
+<script setup type="ts"></script>
 
 <style>
 @layer utilities {
